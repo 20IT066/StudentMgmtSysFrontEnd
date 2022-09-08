@@ -3,6 +3,7 @@ import './App.css';
 import Naviga from './Components/Naviga';
 import Footer from './Components/Foot';
 import Student from './Components/Student';
+import StudentList from './Components/StudentList';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Naviga/> 
     <Footer/> 
     <Student/>
+    <StudentList/>
     </>
   
   );
