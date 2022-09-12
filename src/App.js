@@ -3,6 +3,7 @@ import Student from "./components/Student";
 import StudentList from "./components/StudentList";
 import Naviga from "./components/Naviga";
 import Foot from "./components/Foot";
+import Regis from "./components/Regis";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyAlert from "./components/MyAlert";
@@ -36,6 +37,10 @@ function App() {
             <Route
               path="/students"
               element={<StudentList showAlert={showAlert} />}
+            />
+            <Route
+              path="/register"
+              element={<Regis showAlert={showAlert} />}
             />
           </Routes>
         </Container>

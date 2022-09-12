@@ -11,6 +11,7 @@ function Naviga() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Add Student</Nav.Link>
             <Nav.Link href="#features">View Student</Nav.Link>
+            <Nav.Link href="#features">Register</Nav.Link>
             <Nav.Link href="#pricing">About</Nav.Link>
           </Nav>
         </Container>
