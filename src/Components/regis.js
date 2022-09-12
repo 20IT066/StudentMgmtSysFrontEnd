@@ -33,7 +33,7 @@ export default function Student(props) {
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        progress: undefined,
+        
       });
     } else {
       toast(message, {
@@ -43,7 +43,7 @@ export default function Student(props) {
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        progress: undefined,
+       
       });
     }
   };
